@@ -1,0 +1,52 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 90%;
+}
+#app {
+  margin: 2em;
+  font-family: monospace;
+}
+
+.assembly-add-item {
+  margin-left: 1em;
+}
+
+.stage {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid lightgray;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  justify-content: space-between;
+}
+
+.assembly-stage {
+  padding: 0 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+
+.assembly-item {
+  margin: 0.1rem 0;
+  width: fit-content;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  font-size: 12px;
+}
+
+.assembly-item:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.assembly-item:first-child {
+  margin-top: 1rem;
+}
+
+label {
+  font-size: 13px;
+}
