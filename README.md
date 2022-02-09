@@ -23,12 +23,12 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 create task manager.
 imagine we have 4 stage such as: 'Idea', 'Development', 'Testing', 'Deployment'.
 Acceptance Criteria:
-1- Adding an item in the Idea column with 'enter' key. 
-2- New items should add to the top of the list in each column.
-3- through click on each item move to the next column.
-4- right-click on each item, move to the previous column and add it to the end of the list. 
-5- through click on each item in the 'Deployment' column, the item should be removed and exits from the board.
-6- through right-click on each item in the 'Idea' column, the item should be removed and exits from the board.  
+1. Adding an item in the Idea column with 'enter' key. 
+2. New items should add to the top of the list in each column.
+3. through click on each item move to the next column.
+4. right-click on each item, move to the previous column and add it to the end of the list. 
+5. through click on each item in the 'Deployment' column, the item should be removed and exits from the board.
+6. through right-click on each item in the 'Idea' column, the item should be removed and exits from the board.  
 
-Demo:
+### `Demo`:
 ![alt text](./public/Animation.gif "Demo")
